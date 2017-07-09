@@ -157,6 +157,10 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    camera.msm8996 \
+    libmmcamera_interface \
+    libmmjpeg_interface \
+    libqomx_core \
     Snap
 
 # Connectivity Engine support (CNE)
